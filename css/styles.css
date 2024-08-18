@@ -1,10 +1,17 @@
 :root{
   --primaryLogoColor: #26C7EA;
   --primaryLinkColor: #fff;
+  --primaryButtonColor: #26C6EA;
+  --primaryButtonBackgroundColor: #0B0E66;  
+  --primaryTranslatorColor: #FFFFFF;
+  --primarySwitchBackgroundColor: #2B4A61;
+  --primarySwitchCircleColor: #FFF;
+  --primaryTextColor: #FFFFFF;
   --font-family: "Inter", sans-serif;
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
 }
+
 
 
 .header{
@@ -12,15 +19,104 @@
     width: 1440px;
     height: 150px;
 }
+.header-position{
+    display: flex;
+    align-items: center;
+  }
+.body{
+    font-weight: 400;
+}
 .container{
     width: 1440px;
-}
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 .logo{
     color: var(--primaryLogoColor);
 }
 .logo-text{
     text-transform: uppercase;
 }
+.menu{
+    display: flex;
+}
 .menu-link{
     color: var(--primaryLinkColor);
+}
+button{
+    color: var(--primaryButtonColor);
+    background-color: var(--primaryButtonBackgroundColor);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/*Стилі для перемикача*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input {
+    display:none;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--primarySwitchBackgroundColor);
+    -webkit-transition: .4s;
+    transition: .4s;
+    outline: 1px solid white;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--primarySwitchCircleColor);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
+}
+/*Продавження стилів для проекту*/
+
+.item-text{
+    text-transform: uppercase;
+    color: var(--primaryTranslatorColor);
+}
+.hero-section{
+    width: 1440px;
+    height: 740px;
+    background-image: url(../images/avatar.png);
+}
+.text{
+    color: var(--primaryTextColor);
+    border-top: 3px solid white;
+}
+.title{
+    text-transform: uppercase;
+}
+.writer-name{
+    text-align: center;
+}
+.third-hero-section{
+    background-image: url(../images/avatar_trailer.png);
+    width: 1440px;
+    height: 741px;
 }
