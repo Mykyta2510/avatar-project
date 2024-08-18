@@ -1,0 +1,26 @@
+:root{
+  --primaryLogoColor: #26C7EA;
+  --primaryLinkColor: #fff;
+  --font-family: "Inter", sans-serif;
+  --second-family: "HeadlandOne", sans-serif;
+  --third-family: "Hammersmith One", sans-serif;
+}
+
+
+.header{
+    background-image: url(../images/avatar-underwater.png);
+    width: 1440px;
+    height: 150px;
+}
+.container{
+    width: 1440px;
+}
+.logo{
+    color: var(--primaryLogoColor);
+}
+.logo-text{
+    text-transform: uppercase;
+}
+.menu-link{
+    color: var(--primaryLinkColor);
+}
