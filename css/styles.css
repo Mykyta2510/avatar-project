@@ -7,6 +7,7 @@
   --primarySwitchBackgroundColor: #2B4A61;
   --primarySwitchCircleColor: #FFF;
   --primaryTextColor: #FFFFFF;
+  --primaryTitleColor: #141414;
   --font-family: "Inter", sans-serif;
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
@@ -109,7 +110,7 @@ input:checked + .slider:before {
     color: var(--primaryTextColor);
     border-top: 3px solid white;
 }
-.title{
+.quote-title{
     text-transform: uppercase;
 }
 .writer-name{
@@ -119,4 +120,30 @@ input:checked + .slider:before {
     background-image: url(../images/avatar_trailer.png);
     width: 1440px;
     height: 741px;
+}
+.forth-hero-section{
+    background-image: url(../images/avatar_mountains.png);
+    width: 1440px;
+    height: 704px;
+}
+.first-line{
+    display: flex;
+}
+.gallery-title{
+    color: var(--primaryTitleColor);
+    text-align: center;
+}
+.gallery-item{
+    background-color: transparent;
+    width: 320px;
+    height: 240px;
+}
+.gallery-image{
+    width: 152px;
+    height: 40px;
+}
+.footer{
+    background-image: url(../images/avtar_underwater.png);
+    width: 1440px;
+    height: 223px;
 }
