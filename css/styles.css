@@ -8,6 +8,7 @@
   --primarySwitchCircleColor: #FFF;
   --primaryTextColor: #FFFFFF;
   --primaryTitleColor: #141414;
+  --primaryLineColor: #FFFFFF;
   --font-family: "Inter", sans-serif;
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
@@ -34,7 +35,7 @@
     padding-right: 15px;
   }
 .logo{
-    color: var(--primaryLogoColor);
+    color: var(--primaryLogoColor); 
 }
 .logo-text{
     text-transform: uppercase;
@@ -108,7 +109,6 @@ input:checked + .slider:before {
 }
 .text{
     color: var(--primaryTextColor);
-    border-top: 3px solid white;
 }
 .quote-title{
     text-transform: uppercase;
@@ -146,4 +146,14 @@ input:checked + .slider:before {
     background-image: url(../images/avtar_underwater.png);
     width: 1440px;
     height: 223px;
+    display: flex;
+}
+.contact-text{
+    color: var(--primaryTextColor);
+}
+.contact-link{
+    color: var(--primaryLinkColor);
+}
+.description{
+    color: var(--primaryTextColor);
 }
