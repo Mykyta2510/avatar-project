@@ -8,7 +8,10 @@
   --primarySwitchCircleColor: #FFF;
   --primaryTextColor: #FFFFFF;
   --primaryTitleColor: #141414;
+  --secondaryTitleColor: #0a3853;
   --primaryLineColor: #FFFFFF;
+  --primaryHeroLinkColor: #94CFFF;
+  --primaryWriterNamecolor: #000;
   --font-family: "Inter", sans-serif;
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
@@ -26,7 +29,9 @@
     align-items: center;
   }
 .body{
+    font-family: var(--font-family);
     font-weight: 400;
+    font-size: 20px;
 }
 .container{
     width: 1440px;
@@ -43,14 +48,28 @@
 .menu{
     display: flex;
 }
+.hero-link{
+    color: var(--primaryLinkColor);
+    font-weight: 600;
+    text-align: center;
+}
+.hero-link:hover{
+    color: var(--primaryHeroLinkColor);
+}
 .menu-link{
     color: var(--primaryLinkColor);
+    font-weight: 300;
+    text-align: center;
 }
-button{
+.hero-button{
     color: var(--primaryButtonColor);
     background-color: var(--primaryButtonBackgroundColor);
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    font-family: var(--second-family);
+    width: 141px;
+    height: 41px;
+    font-size: 24px;
 }
 /*Стилі для перемикача*/
 .switch {
@@ -101,6 +120,8 @@ input:checked + .slider:before {
 .item-text{
     text-transform: uppercase;
     color: var(--primaryTranslatorColor);
+    font-family: var(--third-family);
+    font-size: 16px;
 }
 .hero-section{
     width: 1440px;
@@ -110,37 +131,70 @@ input:checked + .slider:before {
 .text{
     color: var(--primaryTextColor);
 }
+.button{
+    color: var(--primaryButtonColor);
+    background-color: var(--primaryButtonBackgroundColor);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: var(--second-family);
+    font-size: 24px;
+    width: 260px;
+    height: 80px;
+}
 .quote-title{
     text-transform: uppercase;
+    font-size: 36px;
+    color: var(--secondaryTitleColor);
 }
 .writer-name{
     text-align: center;
+    font-size: 24px;
+    color: var(--primaryWriterNamecolor);
 }
 .third-hero-section{
     background-image: url(../images/avatar_trailer.png);
     width: 1440px;
     height: 741px;
 }
+.title{
+    color: var(--primaryTitleColor);
+    text-transform: uppercase;
+    font-size: 36px;
+}
 .forth-hero-section{
     background-image: url(../images/avatar_mountains.png);
     width: 1440px;
     height: 704px;
 }
-.first-line{
-    display: flex;
-}
 .gallery-title{
     color: var(--primaryTitleColor);
     text-align: center;
+    font-family: var(--second-family);
+    font-size: 32px;
+}
+.first-line{
+    display: flex;
 }
 .gallery-item{
     background-color: transparent;
     width: 320px;
     height: 240px;
 }
+.gallery-text{
+    font-family: var(--second-family);
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--primaryTitleColor);
+}
 .gallery-image{
     width: 152px;
     height: 40px;
+}
+.gallery-translate{
+    font-family: var(--second-family);
+    font-size: 24px;
+    line-height: 100%;
+    color: var(--primaryWriterNamecolor);
 }
 .footer{
     background-image: url(../images/avtar_underwater.png);
@@ -156,4 +210,5 @@ input:checked + .slider:before {
 }
 .description{
     color: var(--primaryTextColor);
+    font-size: 14px;
 }
