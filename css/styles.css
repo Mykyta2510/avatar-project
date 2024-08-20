@@ -23,6 +23,7 @@
     background-image: url(../images/avatar-underwater.png);
     width: 1440px;
     height: 150px;
+    margin-top: 39px;
 }
 .header-position{
     display: flex;
@@ -32,34 +33,45 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
+    width: 1440px;
+    color: var(--primaryTextColor);
 }
 .container{
-    width: 1440px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
   }
 .logo{
     color: var(--primaryLogoColor); 
+    margin-left: 204px;
 }
 .logo-text{
     text-transform: uppercase;
 }
 .menu{
     display: flex;
+    margin-left: 168px;
 }
 .hero-link{
     color: var(--primaryLinkColor);
     font-weight: 600;
     text-align: center;
+    padding-right: 38px;
 }
 .hero-link:hover{
     color: var(--primaryHeroLinkColor);
+}
+.second-hero-link{
+    color: var(--primaryLinkColor);
+    font-weight: 300;
+    text-align: center;
+    padding-right: 38px; 
 }
 .menu-link{
     color: var(--primaryLinkColor);
     font-weight: 300;
     text-align: center;
+    margin-right: 212px;
 }
 .hero-button{
     color: var(--primaryButtonColor);
@@ -70,6 +82,7 @@
     width: 141px;
     height: 41px;
     font-size: 24px;
+    margin-right: 49px;
 }
 /*Стилі для перемикача*/
 .switch {
@@ -118,18 +131,27 @@ input:checked + .slider:before {
 /*Продавження стилів для проекту*/
 
 .item-text{
-    text-transform: uppercase;
     color: var(--primaryTranslatorColor);
     font-family: var(--third-family);
     font-size: 16px;
+    text-transform: uppercase;
 }
 .hero-section{
-    width: 1440px;
     height: 740px;
     background-image: url(../images/avatar.png);
 }
+.preview{
+    padding: 179px 860px 180px 204px;
+}
+.hero-text{
+    width: 298px;
+}
+.preview-image{
+    padding-left: 47px;
+}
 .text{
-    color: var(--primaryTextColor);
+    width: 376px;
+    margin-bottom: 42px;
 }
 .button{
     color: var(--primaryButtonColor);
@@ -142,9 +164,9 @@ input:checked + .slider:before {
     height: 80px;
 }
 .quote-title{
-    text-transform: uppercase;
     font-size: 36px;
     color: var(--secondaryTitleColor);
+    text-transform: uppercase;
 }
 .writer-name{
     text-align: center;
@@ -153,17 +175,15 @@ input:checked + .slider:before {
 }
 .third-hero-section{
     background-image: url(../images/avatar_trailer.png);
-    width: 1440px;
     height: 741px;
 }
 .title{
     color: var(--primaryTitleColor);
-    text-transform: uppercase;
     font-size: 36px;
+    text-transform: uppercase;
 }
 .forth-hero-section{
     background-image: url(../images/avatar_mountains.png);
-    width: 1440px;
     height: 704px;
 }
 .gallery-title{
@@ -198,17 +218,12 @@ input:checked + .slider:before {
 }
 .footer{
     background-image: url(../images/avtar_underwater.png);
-    width: 1440px;
     height: 223px;
     display: flex;
-}
-.contact-text{
-    color: var(--primaryTextColor);
 }
 .contact-link{
     color: var(--primaryLinkColor);
 }
 .description{
-    color: var(--primaryTextColor);
     font-size: 14px;
 }
