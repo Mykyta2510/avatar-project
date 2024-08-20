@@ -177,6 +177,7 @@ input:checked + .slider:before {
     text-align: center;
     font-size: 24px;
     color: var(--primaryWriterNamecolor);
+    margin-top: 16px;
 }
 .quote-image{
     padding-left: 505px;
@@ -185,23 +186,19 @@ input:checked + .slider:before {
     background-image: url(../images/avatar_trailer.png);
     height: 741px;
 }
-.trailer-button{
-    width: 260px;
-    height: 80px;
-    color: var(--primaryButtonColor);
-    background-color: var(--primaryButtonBackgroundColor);
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    font-family: var(--second-family);
-    font-size: 24px;
-}
 .second-button{
     color: var(--primaryButtonColor);
+    margin-left: 609px;
+    padding-top: 355px;
+    display: block;
+    font-family: var(--second-family);
+    font-size: 24px;
 }
 .title{
     color: var(--primaryTitleColor);
     font-size: 36px;
     text-transform: uppercase;
+    text-align: center;
 }
 .forth-hero-section{
     background-image: url(../images/avatar_mountains.png);
