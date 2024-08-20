@@ -21,6 +21,7 @@
 
 .header{
     background-image: url(../images/avatar-underwater.png);
+    
     width: 1440px;
     height: 150px;
     margin-top: 39px;
@@ -163,19 +164,39 @@ input:checked + .slider:before {
     width: 260px;
     height: 80px;
 }
+.quote-section{
+    padding-top: 75px;
+}
 .quote-title{
     font-size: 36px;
     color: var(--secondaryTitleColor);
     text-transform: uppercase;
+    text-align: center;
 }
 .writer-name{
     text-align: center;
     font-size: 24px;
     color: var(--primaryWriterNamecolor);
 }
+.quote-image{
+    padding-left: 505px;
+}
 .third-hero-section{
     background-image: url(../images/avatar_trailer.png);
     height: 741px;
+}
+.trailer-button{
+    width: 260px;
+    height: 80px;
+    color: var(--primaryButtonColor);
+    background-color: var(--primaryButtonBackgroundColor);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: var(--second-family);
+    font-size: 24px;
+}
+.second-button{
+    color: var(--primaryButtonColor);
 }
 .title{
     color: var(--primaryTitleColor);
