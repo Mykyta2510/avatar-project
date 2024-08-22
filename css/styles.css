@@ -43,11 +43,7 @@
     padding-right: 15px;
   }
 .logo{
-    color: var(--primaryLogoColor); 
     margin-left: 204px;
-}
-.logo-text{
-    text-transform: uppercase;
 }
 .menu{
     display: flex;
@@ -77,8 +73,8 @@
 .hero-button{
     color: var(--primaryButtonColor);
     background-color: var(--primaryButtonBackgroundColor);
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
     font-family: var(--second-family);
     width: 141px;
     height: 41px;
@@ -157,8 +153,8 @@ input:checked + .slider:before {
 .button{
     color: var(--primaryButtonColor);
     background-color: var(--primaryButtonBackgroundColor);
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
     font-family: var(--second-family);
     font-size: 24px;
     width: 260px;
@@ -235,7 +231,7 @@ input:checked + .slider:before {
     color: var(--primaryWriterNamecolor);
 }
 .footer{
-    background-image: url(../images/avtar_underwater.png);
+    background-image: url(../images/avatar_underwater.png);
     height: 223px;
     display: flex;
 }
