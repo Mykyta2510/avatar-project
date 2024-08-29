@@ -24,7 +24,6 @@
     margin: 0 auto;
     width: 1440px;
     height: 150px;
-    margin-top: 39px;
 }
 .header-position{
     display: flex;
@@ -34,7 +33,6 @@ body{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
-    width: 1440px;
     color: var(--primaryTextColor);
 }
 .container{
@@ -137,6 +135,8 @@ input:checked + .slider:before {
 .hero-section{
     height: 740px;
     background-image: url(../images/avatar.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .preview{
     padding: 179px 860px 180px 204px;
@@ -161,6 +161,9 @@ input:checked + .slider:before {
     width: 260px;
     height: 80px;
 }
+.network-item{
+    margin-bottom: 27px;
+}
 .quote-section{
     padding-top: 75px;
 }
@@ -182,6 +185,7 @@ input:checked + .slider:before {
 .third-hero-section{
     background-image: url(../images/avatar_trailer.png);
     height: 741px;
+    background-repeat: no-repeat;
 }
 .second-button{
     color: var(--primaryButtonColor);
@@ -200,6 +204,7 @@ input:checked + .slider:before {
 .forth-hero-section{
     background-image: url(../images/avatar_mountains.png);
     height: 704px;
+    background-repeat: no-repeat;
 }
 .gallery-title{
     color: var(--primaryTitleColor);
@@ -207,7 +212,10 @@ input:checked + .slider:before {
     font-family: var(--second-family);
     font-size: 32px;
 }
-.first-line{
+.gallery-first{
+    display: flex;
+}
+.gallery-second{
     display: flex;
 }
 .gallery-item{
@@ -235,6 +243,7 @@ input:checked + .slider:before {
     background-image: url(../images/avatar_underwater.png);
     height: 223px;
     display: flex;
+    background-repeat: no-repeat;
 }
 .contact-link{
     color: var(--primaryLinkColor);
