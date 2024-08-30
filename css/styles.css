@@ -36,7 +36,6 @@ body{
     color: var(--primaryTextColor);
 }
 .container{
-    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     width: 1032px;
@@ -136,16 +135,11 @@ input:checked + .slider:before {
     height: 740px;
     background-image: url(../images/avatar.png);
     background-repeat: no-repeat;
+    width: 1440px;
     margin: 0 auto;
-}
-.preview{
-    padding: 179px 860px 180px 204px;
 }
 .hero-text{
     width: 298px;
-}
-.preview-image{
-    padding-left: 47px;
 }
 .text{
     width: 376px;
@@ -166,6 +160,8 @@ input:checked + .slider:before {
 }
 .quote-section{
     padding-top: 75px;
+    width: 1440px;
+    margin: 0 auto;
 }
 .quote-title{
     font-size: 36px;
@@ -186,6 +182,8 @@ input:checked + .slider:before {
     background-image: url(../images/avatar_trailer.png);
     height: 741px;
     background-repeat: no-repeat;
+    width: 1440px;
+    margin: 0 auto;
 }
 .second-button{
     color: var(--primaryButtonColor);
@@ -205,6 +203,8 @@ input:checked + .slider:before {
     background-image: url(../images/avatar_mountains.png);
     height: 704px;
     background-repeat: no-repeat;
+    width: 1440px;
+    margin: 0 auto;
 }
 .gallery-title{
     color: var(--primaryTitleColor);
@@ -219,9 +219,10 @@ input:checked + .slider:before {
     display: flex;
 }
 .gallery-item{
-    background-color: transparent;
     width: 320px;
     height: 240px;
+    opacity: 70%;
+    background-color: #FFFFFF;
 }
 .gallery-text{
     font-family: var(--second-family);
@@ -244,6 +245,8 @@ input:checked + .slider:before {
     height: 223px;
     display: flex;
     background-repeat: no-repeat;
+    width: 1440px;
+    margin: 0 auto;
 }
 .contact-link{
     color: var(--primaryLinkColor);
