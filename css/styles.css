@@ -144,6 +144,10 @@ input:checked + .slider:before {
     width: 1440px;
     margin: 0 auto;
 }
+.preview{
+    background-image: url(../images/white-line.png);
+    background-repeat: no-repeat;
+}
 .hero-text{
     width: 298px;
 }
@@ -169,6 +173,11 @@ input:checked + .slider:before {
     width: 1440px;
     margin: 0 auto;
 }
+.quote{
+    background-image: url(../images/bird.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .quote-title{
     font-size: 36px;
     color: var(--secondaryTitleColor);
@@ -176,10 +185,10 @@ input:checked + .slider:before {
     text-align: center;
 }
 .writer-name{
-    text-align: center;
     font-size: 24px;
     color: var(--primaryWriterNamecolor);
     margin-top: 16px;
+    padding-left: 645px;
 }
 .quote-image{
     padding-left: 505px;
@@ -235,6 +244,9 @@ input:checked + .slider:before {
     width: 320px;
     height: 240px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .second-box{
     background-color: #FFFFFF;
@@ -243,6 +255,9 @@ input:checked + .slider:before {
     height: 240px;
     margin-left: 36px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../images/small-bird.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .third-box{
     background-color: #FFFFFF;
@@ -251,6 +266,9 @@ input:checked + .slider:before {
     height: 240px;
     margin-left: 36px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../images/line-another.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .fourth-box{
     background-color: #FFFFFF;
@@ -259,6 +277,9 @@ input:checked + .slider:before {
     height: 240px;
     margin-top: 24px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .fifth-box{
     background-color: #FFFFFF;
@@ -268,6 +289,9 @@ input:checked + .slider:before {
     margin-top: 24px;
     margin-left: 36px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../images/small-bird.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sixth-box{
     background-color: #FFFFFF;
@@ -277,6 +301,9 @@ input:checked + .slider:before {
     margin-top: 24px;
     margin-left: 36px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../images/line-another.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .gallery-text{
     font-family: var(--second-family);
