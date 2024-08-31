@@ -332,6 +332,6 @@ input:checked + .slider:before {
 .contact-link{
     color: var(--primaryLinkColor);
 }
-.description{
+.copyright{
     font-size: 14px;
 }
