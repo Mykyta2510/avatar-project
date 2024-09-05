@@ -20,8 +20,7 @@
 
 
 .header{
-    
-    background-image: url(../images/avatar-underwater.png);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.403),rgba(88, 153, 199, 0.414)), url(../images/avatar-underwater.png);
     margin: 0 auto;
     width: 1440px;
     height: 150px;
@@ -171,13 +170,12 @@ input:checked + .slider:before {
 }
 .quote-section{
     padding-top: 75px;
+    padding-bottom: 10px;
     width: 1440px;
     margin: 0 auto;
-}
-.quote{
     background-image: url(../images/bird.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 520px 100px;
 }
 .quote-title{
     font-size: 36px;
@@ -187,9 +185,10 @@ input:checked + .slider:before {
 }
 .writer-name{
     font-size: 24px;
+    width: 151px;
     color: var(--primaryWriterNamecolor);
     margin-top: 16px;
-    padding-left: 645px;
+    margin: 0 auto;
 }
 .quote-image{
     padding-left: 505px;
