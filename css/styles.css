@@ -39,6 +39,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     width: 1032px;
+    margin: 0 auto;
   }
 .logo{
     margin-left: 204px;
@@ -123,7 +124,7 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
-/*Продавження стилів для проекту*/
+/*Продовження стилів для проекту*/
 
 .first-text{
     color: var(--primaryTranslatorColor);
