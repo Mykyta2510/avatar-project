@@ -12,6 +12,7 @@
   --primaryLineColor: #FFFFFF;
   --primaryHeroLinkColor: #94CFFF;
   --primaryWriterNamecolor: #000;
+  --primaryLineColor: #FFFFFF;
   --font-family: "Inter", sans-serif;
   --second-family: "HeadlandOne", sans-serif;
   --third-family: "Hammersmith One", sans-serif;
@@ -20,10 +21,11 @@
 
 
 .header{
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(88, 153, 199, 0.87)), url(../images/avatar-underwater.png);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar-underwater.png);
     margin: 0 auto;
     width: 1440px;
     height: 150px;
+    outline: solid 1px var(--primaryLineColor);
 }
 .header-position{
     display: flex;
@@ -38,6 +40,8 @@ body{
 .container{
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     width: 1032px;
     margin: 0 auto;
 }
@@ -76,64 +80,6 @@ body{
     height: 41px;
     font-size: 24px;
     margin-right: 49px;
-}
-/*Стилі для перемикача*/
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-.switch input {
-    display:none;
-}
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--primarySwitchBackgroundColor);
-    -webkit-transition: .4s;
-    transition: .4s;
-    outline: 1px solid white;
-}
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: var(--primarySwitchCircleColor);
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-.slider.round {
-    border-radius: 34px;
-}
-.slider.round:before {
-    border-radius: 50%;
-}
-/*Продовження стилів для проекту*/
-
-.first-text{
-    color: var(--primaryTranslatorColor);
-    font-family: var(--third-family);
-    font-size: 16px;
-    text-transform: uppercase;
-}
-.item-text{
-    color: var(--primaryTranslatorColor);
-    font-family: var(--third-family);
-    font-size: 16px;
-    text-transform: uppercase;
 }
 .hero-section{
     height: 740px;
@@ -200,7 +146,7 @@ input:checked + .slider:before {
 }
 .second-button{
     color: var(--primaryButtonColor);
-    margin-left: 609px;
+    margin-left: 400px;
     padding-top: 355px;
     display: block;
     font-family: var(--second-family);
@@ -318,16 +264,21 @@ input:checked + .slider:before {
     text-align: center;
 }
 .footer{
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(88, 153, 199, 0.87)), url(../images/avatar_underwater.png);
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar_underwater.png);
     height: 223px;
-    display: flex;
     background-repeat: no-repeat;
     width: 1440px;
     margin: 0 auto;
+    padding-top: 77px;
+    padding-bottom: 25px;
+}
+.second-container{
+    display: flex;
 }
 .contact-link{
     color: var(--primaryLinkColor);
 }
 .copyright{
     font-size: 14px;
+    padding-left: 478px;
 }
