@@ -1,5 +1,6 @@
 :root{
   --primaryLogoColor: #26C7EA;
+  --primaryButtonShadowColor: #26C7EA;
   --primaryLinkColor: #fff;
   --primaryButtonColor: #26C6EA;
   --primaryButtonBackgroundColor: #0B0E66;  
@@ -45,9 +46,13 @@ body{
     width: 1032px;
     margin: 0 auto;
 }
+.logo{
+    padding-top: 39px;
+}
 .menu{
     display: flex;
     margin-left: 168px;
+    padding-top: 39px;
 }
 .hero-link{
     color: var(--primaryLinkColor);
@@ -77,10 +82,14 @@ body{
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     font-family: var(--second-family);
-    width: 141px;
-    height: 41px;
     font-size: 24px;
     margin-right: 49px;
+    margin-top: 39px;
+    height: 42px;
+    width: 142px;
+}
+.switcher{
+    padding-top: 39px;
 }
 .hero-section{
     height: 740px;
@@ -92,9 +101,12 @@ body{
 .preview{
     background-image: url(../images/white-line.png);
     background-repeat: no-repeat;
+    background-position: 50px 270px;
+    padding-top: 180px;
 }
 .hero-text{
     width: 298px;
+    margin-bottom: 40px;
 }
 .text{
     width: 376px;
@@ -107,8 +119,11 @@ body{
     border-bottom-right-radius: 45px;
     font-family: var(--second-family);
     font-size: 24px;
-    width: 260px;
     height: 80px;
+    width: 260px;
+}
+.social-networks{
+    margin-left: 1000px;
 }
 .network-item{
     margin-bottom: 27px;
@@ -125,7 +140,6 @@ body{
 }
 .quote-title{
     font-size: 36px;
-    margin-top: 75px;
     color: var(--secondaryTitleColor);
     text-transform: uppercase;
     text-align: center;
@@ -138,7 +152,14 @@ body{
     margin-top: 16px;
     margin: 0 auto;
 }
-
+.hero-writer-name{
+    font-size: 24px;
+    width: 151px;
+    color: var(--primaryWriterNamecolor);
+    margin-top: 16px;
+    margin: 0 auto;
+    margin-left: 465px;
+}
 .third-hero-section{
     background-image: url(../images/avatar_trailer.png);
     height: 741px;
@@ -159,7 +180,6 @@ body{
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 75px;
     font-weight: 400;
 }
 .forth-hero-section{
