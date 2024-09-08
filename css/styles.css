@@ -63,6 +63,7 @@ body{
     font-weight: 300;
     text-align: center;
     padding-right: 38px; 
+    white-space: nowrap;
 }
 .menu-link{
     color: var(--primaryLinkColor);
@@ -128,6 +129,7 @@ body{
     color: var(--secondaryTitleColor);
     text-transform: uppercase;
     text-align: center;
+    font-weight: 400;
 }
 .writer-name{
     font-size: 24px;
@@ -158,6 +160,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     margin-top: 75px;
+    font-weight: 400;
 }
 .forth-hero-section{
     background-image: url(../images/avatar_mountains.png);
@@ -265,7 +268,6 @@ body{
 }
 .footer{
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar_underwater.png);
-    height: 223px;
     background-repeat: no-repeat;
     width: 1440px;
     margin: 0 auto;
@@ -274,9 +276,30 @@ body{
 }
 .second-container{
     display: flex;
+    background-image: url(../images/midle-line.png);
+    background-repeat: no-repeat;
+    background-position: 270px;
+}
+.contacts{
+    background-image: url(../images/big-line.png);
+    background-repeat: no-repeat;
+    background-position: 280px 10px;
+}
+.hero-item{
+    background-image: url(../images/small-line.png);
+    background-repeat: no-repeat;
+    background-position: 355px;
+}
+.contact-text{
+    margin-left: 160px;
+}
+.hero-contact{
+    color: var(--primaryLinkColor);
+    margin-left: 576px;
 }
 .contact-link{
     color: var(--primaryLinkColor);
+    margin-left: 576px;
 }
 .copyright{
     font-size: 14px;
