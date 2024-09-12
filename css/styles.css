@@ -21,8 +21,8 @@
 
 
 
-.header{
-    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar-underwater.png);
+.header{background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar-underwater.png);
+    
     margin: 0 auto;
     width: 1440px;
     height: 150px;
@@ -107,11 +107,11 @@ body{
 .hero-container{
     display: flex;
 }
-.preview{
+.hero-content{
+    padding-top: 180px;
     background-image: url(../images/white-line.png);
     background-repeat: no-repeat;
     background-position: 50px 270px;
-    padding-top: 180px;
 }
 .hero-text{
     width: 298px;
@@ -128,12 +128,11 @@ body{
     border-bottom-right-radius: 45px;
     font-family: var(--second-family);
     font-size: 24px;
-    margin-top: 445px;
     height: 80px;
     width: 260px;
 }
 .social-networks{
-    padding-left: 360px;
+    padding-left: 630px;
     padding-top: 290px;
 }
 .network-item{
