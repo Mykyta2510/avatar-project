@@ -22,7 +22,6 @@
 
 
 .header{background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar-underwater.png);
-    
     margin: 0 auto;
     width: 1440px;
     height: 150px;
@@ -111,7 +110,7 @@ body{
     padding-top: 180px;
     background-image: url(../images/white-line.png);
     background-repeat: no-repeat;
-    background-position: 50px 270px;
+    background-position: 50px 280px;
 }
 .hero-text{
     width: 298px;
@@ -139,8 +138,7 @@ body{
     margin-bottom: 29px;
 }
 .quote-section{
-    padding-top: 75px;
-    padding-bottom: 10px;
+    padding-top: 80px;
     width: 1440px;
     height: 350px;
     margin: 0 auto;
@@ -159,14 +157,12 @@ body{
     font-size: 24px;
     width: 151px;
     color: var(--primaryWriterNamecolor);
-    margin-top: 16px;
     margin: 0 auto;
 }
 .hero-writer-name{
     font-size: 24px;
     width: 151px;
     color: var(--primaryWriterNamecolor);
-    margin-top: 16px;
     margin: 0 auto;
     margin-left: 465px;
 }
@@ -310,26 +306,28 @@ body{
     background-repeat: no-repeat;
     background-position: 270px;
 }
-.contacts{
+.hero-item{
+    margin-left: 160px;
     background-image: url(../images/big-line.png);
     background-repeat: no-repeat;
-    background-position: 280px 10px;
+    background-position: 125px ;
+    display: flex;
 }
-.hero-item{
+.contact-item{
+    margin-left: 160px;
+    margin-top: 16px;
     background-image: url(../images/small-line.png);
     background-repeat: no-repeat;
-    background-position: 355px;
+    background-position: 195px ;
+    display: flex;
 }
-.contact-text{
-    margin-left: 160px;
-}
-.hero-contact{
+.footer-hero-link{
     color: var(--primaryLinkColor);
-    margin-left: 576px;
+    margin-left: 309px;
 }
 .contact-link{
     color: var(--primaryLinkColor);
-    margin-left: 576px;
+    margin-left: 237px;
 }
 .copyright{
     font-size: 14px;
