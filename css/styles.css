@@ -40,6 +40,7 @@
 .header-position{
     display: flex;
     align-items: center;
+    width: 1032px;
   }
 body{
     font-family: var(--font-family);
@@ -100,6 +101,8 @@ body{
 }
 .switcher-wrap{
     display: flex;
+    column-gap: 8px;
+    align-items: center;
 }
 .language{
     font-family: var(--third-family);
@@ -363,8 +366,8 @@ body{
     margin-top: 16px;
     background-image: url(../images/small-line.png);
     background-repeat: no-repeat;
-    background-position: 195px ;
-    display: flex;
+    background-position: 195px ; 
+    display: flex; 
 }
 .footer-hero-link{
     color: var(--primaryLinkColor);
@@ -372,7 +375,7 @@ body{
 }
 .contact-link{
     color: var(--primaryLinkColor);
-    margin-left: 237px;
+    margin-left: 214px;
 }
 .copyright{
     font-size: 14px;
