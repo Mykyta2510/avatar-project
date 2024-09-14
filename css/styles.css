@@ -150,6 +150,11 @@ body{
 .network-item{
     margin-bottom: 29px;
 }
+.instagram{
+    width: 50px;
+    height: 30px;
+    display: block;
+}
 .quote-section{
     padding-top: 80px;
     width: 1440px;
@@ -318,19 +323,25 @@ body{
 }
 .second-container{
     display: flex;
-    background-image: url(../images/midle-line.png);
-    background-repeat: no-repeat;
-    background-position: 270px;
+}
+.footer-logo{
+    display: contents;
+}
+.footer-logo::after{
+    content: '';
+    width: 1px;
+    height: 153px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 80px;
 }
 .hero-item{
-    margin-left: 160px;
     background-image: url(../images/big-line.png);
     background-repeat: no-repeat;
     background-position: 125px ;
     display: flex;
 }
 .contact-item{
-    margin-left: 160px;
     margin-top: 16px;
     background-image: url(../images/small-line.png);
     background-repeat: no-repeat;
