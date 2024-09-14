@@ -91,6 +91,7 @@ body{
     background-color: var(--primaryButtonBackgroundColor);
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
+    border: 3px solid #26C7EA;
     font-family: var(--second-family);
     font-size: 24px;
     margin-left: auto;
@@ -138,6 +139,7 @@ body{
     background-color: var(--primaryButtonBackgroundColor);
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
+    border: 3px solid #26C7EA;
     font-family: var(--second-family);
     font-size: 24px;
     height: 80px;
@@ -191,14 +193,23 @@ body{
     background-repeat: no-repeat;
     width: 1440px;
     margin: 0 auto;
+    
+    
 }
 .second-button{
     color: var(--primaryButtonColor);
+    background-color: var(--primaryButtonBackgroundColor);
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border: 3px solid #26C7EA;
+    width: 260px;
+    height: 80px;
     margin-left: 400px;
-    padding-top: 355px;
+    padding: 25px 20px ;
     display: block;
     font-family: var(--second-family);
     font-size: 24px;
+    text-align: center;
 }
 .title{
     color: var(--primaryTitleColor);
@@ -316,13 +327,15 @@ body{
 .footer{
     background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar_underwater.png);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 1440px;
     margin: 0 auto;
-    padding-top: 77px;
+    padding-top: 35px;
     padding-bottom: 25px;
 }
 .second-container{
     display: flex;
+    align-items: center;
 }
 .footer-logo{
     display: contents;
@@ -333,6 +346,13 @@ body{
     height: 153px;
     background-color: #fff;
     display: inline-block;
+    margin-left: 80px;
+}
+.footer-logo-image{
+    height: 70px;
+    width: 183px;
+}
+.contacts{
     margin-left: 80px;
 }
 .hero-item{
