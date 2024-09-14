@@ -33,9 +33,9 @@
     align-items: center;
     padding-top: 39px;
     padding-bottom: 39px;
-    column-gap: 49px;
-    /* padding-left: 204px;
-    padding-right: 48px; */
+    column-gap: 50px;
+    padding-left: 204px;
+    padding-right: 48px; 
 }
 .header-position{
     display: flex;
@@ -164,7 +164,7 @@ body{
     margin: 0 auto;
     background-image: url(../images/bird.png);
     background-repeat: no-repeat;
-    background-position: 500px 300px;
+    background-position: 500px 220px;
 }
 .quote-title{
     font-size: 36px;
@@ -193,8 +193,6 @@ body{
     background-repeat: no-repeat;
     width: 1440px;
     margin: 0 auto;
-    
-    
 }
 .second-button{
     color: var(--primaryButtonColor);
@@ -204,8 +202,8 @@ body{
     border: 3px solid #26C7EA;
     width: 260px;
     height: 80px;
-    margin-left: 400px;
-    padding: 25px 20px ;
+    margin-left: 350px;
+    padding: 25px 20px;
     display: block;
     font-family: var(--second-family);
     font-size: 24px;
