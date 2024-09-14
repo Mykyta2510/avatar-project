@@ -21,11 +21,21 @@
 
 
 
-.header{background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar-underwater.png);
+.header{
+    background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatar-underwater.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
     width: 1440px;
     height: 150px;
     outline: solid 1px var(--primaryLineColor);
+    display: flex;
+    align-items: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    column-gap: 49px;
+    /* padding-left: 204px;
+    padding-right: 48px; */
 }
 .header-position{
     display: flex;
@@ -45,13 +55,9 @@ body{
     width: 1032px;
     margin: 0 auto;
 }
-.logo{
-    padding-top: 39px;
-}
 .menu{
     display: flex;
     margin-left: 168px;
-    padding-top: 39px;
 }
 .hero-link{
     color: var(--primaryLinkColor);
@@ -66,7 +72,7 @@ body{
     color: var(--primaryLinkColor);
     font-weight: 300;
     text-align: center;
-    padding-right: 38px; 
+    margin-right: 38px; 
     white-space: nowrap;
 }
 .second-hero-link:hover{
@@ -76,7 +82,6 @@ body{
     color: var(--primaryLinkColor);
     font-weight: 300;
     text-align: center;
-    margin-right: 212px;
 }
 .menu-link:hover{
     color: var(--primaryHeroLinkColor);
@@ -88,13 +93,21 @@ body{
     border-bottom-right-radius: 45px;
     font-family: var(--second-family);
     font-size: 24px;
-    margin-right: 49px;
-    margin-top: 39px;
+    margin-left: auto;
     height: 42px;
     width: 142px;
 }
+.switcher-wrap{
+    display: flex;
+}
+.language{
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 16px;
+}
 .switcher{
-    padding-top: 39px;
+    width: 36px;
+    height: 20px;
 }
 .hero-section{
     height: 740px;
@@ -202,6 +215,7 @@ body{
     text-align: center;
     padding-top: 58px;
     margin-bottom: 45px;
+    font-weight: 400;
 }
 .gallery-first{
     display: flex;
