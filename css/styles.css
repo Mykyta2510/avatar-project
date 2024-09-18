@@ -205,7 +205,7 @@ body{
     border: 3px solid #26C7EA;
     width: 260px;
     height: 80px;
-    margin-left: 350px;
+    margin: 0px 350px;
     padding: 25px 20px;
     display: block;
     font-family: var(--second-family);
@@ -361,6 +361,8 @@ body{
     background-repeat: no-repeat;
     background-position: 125px ;
     display: flex;
+    width: 665px;
+    justify-content: space-between;
 }
 .contact-item{
     margin-top: 16px;
@@ -368,14 +370,14 @@ body{
     background-repeat: no-repeat;
     background-position: 195px ; 
     display: flex; 
+    width: 689px;
+    justify-content: space-between;
 }
 .footer-hero-link{
     color: var(--primaryLinkColor);
-    margin-left: 309px;
 }
 .contact-link{
     color: var(--primaryLinkColor);
-    margin-left: 214px;
 }
 .copyright{
     font-size: 14px;
