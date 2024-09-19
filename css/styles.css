@@ -196,6 +196,7 @@ body{
     background-repeat: no-repeat;
     width: 1440px;
     margin: 0 auto;
+    display: flex;
 }
 .second-button{
     color: var(--primaryButtonColor);
@@ -205,7 +206,7 @@ body{
     border: 3px solid #26C7EA;
     width: 260px;
     height: 80px;
-    margin: 0px 350px;
+    margin: 0 auto;
     padding: 25px 20px;
     display: block;
     font-family: var(--second-family);
@@ -354,7 +355,7 @@ body{
     width: 183px;
 }
 .contacts{
-    margin-left: 80px;
+    margin-left: 54px;
 }
 .hero-item{
     background-image: url(../images/big-line.png);
