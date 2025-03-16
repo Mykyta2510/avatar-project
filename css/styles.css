@@ -113,6 +113,12 @@ body{
     width: 36px;
     height: 20px;
 }
+.icon-switcher{
+    fill: white;
+}
+.icon-switcher:hover{
+    fill: darkblue;
+}
 .hero-section{
     height: 740px;
     background-image: url(../images/avatar.png);
@@ -154,6 +160,24 @@ body{
 }
 .network-item{
     margin-bottom: 29px;
+}
+.icon-instagram{
+    fill: white;
+}
+.icon-instagram:hover{
+    fill: purple;
+}
+.icon-twitter{
+    fill: white;
+}
+.icon-twitter:hover{
+    fill: blue;
+}
+.icon-youtube{
+    fill: white;
+}
+.icon-youtube:hover{
+    fill: red;
 }
 .instagram{
     width: 50px;
